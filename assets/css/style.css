@@ -10,6 +10,19 @@
     font-family: "Playfair Display", sans-serif;
     font-weight: 700;
     font-style: italic;
+    position: absolute;
+}
+
+#bottom-row{
+    background-color: rgb(255, 155, 133);
+    padding-left: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    text-align: left;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    font-style: italic;
 }
 
 #milestone-1{
@@ -21,6 +34,7 @@
     font-family: "Playfair Display", sans-serif;
     font-weight: 700;
     font-style: italic;
+    color: black;
 }
 
 #milestone-2{
@@ -32,6 +46,7 @@
     font-family: "Playfair Display", sans-serif;
     font-weight: 700;
     font-style: italic;
+    color: black;
 }
 
 #milestone-3{
@@ -43,6 +58,7 @@
     font-family: "Playfair Display", sans-serif;
     font-weight: 700;
     font-style: italic;
+    color: black;
 }
 
 #milestone-4{
@@ -54,6 +70,7 @@
     font-family: "Playfair Display", sans-serif;
     font-weight: 700;
     font-style: italic;
+    color: black;
 }
 
 @media only screen and  (max-width: 991px) {
