@@ -25,7 +25,8 @@
     font-style: italic;
 }
 
-#milestone-1{
+
+#top-milestone-1{
     background-color: rgb(96, 211, 148);
     border-color: black;
     border-style: solid;
@@ -35,9 +36,38 @@
     font-weight: 700;
     font-style: italic;
     color: black;
+    
+    
 }
 
-#milestone-2{
+#bottom-milestone-1{
+    background-color: rgb(96, 211, 148);
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: black;
+    
+     
+}
+
+#top-milestone-2{
+    background-color: rgb(170, 246, 131);
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: black;
+    
+}
+
+#bottom-milestone-2{
     background-color: rgb(170, 246, 131);
     border-color: black;
     border-style: solid;
@@ -49,7 +79,21 @@
     color: black;
 }
 
-#milestone-3{
+#top-milestone-3{
+    background-color: rgb(255, 217, 125);
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: black;
+   
+    
+}
+
+#bottom-milestone-3{
     background-color: rgb(255, 217, 125);
     border-color: black;
     border-style: solid;
@@ -61,7 +105,7 @@
     color: black;
 }
 
-#milestone-4{
+#top-milestone-4{
     background-color: rgb(238, 96, 85);
     border-color: black;
     border-style: solid;
@@ -71,6 +115,21 @@
     font-weight: 700;
     font-style: italic;
     color: black;
+    /* position: absolute; */
+    
+}
+
+#bottom-milestone-4{
+    background-color: rgb(238, 96, 85);
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: black;
+    
 }
 
 @media only screen and  (max-width: 991px) {
