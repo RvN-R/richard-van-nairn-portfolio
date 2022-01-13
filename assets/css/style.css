@@ -45,7 +45,6 @@
     border-color: black;
     border-style: solid;
     border-width: 2px;
-    text-align: center;
     font-family: "Playfair Display", sans-serif;
     font-weight: 700;
     font-style: italic;
@@ -72,7 +71,6 @@
     border-color: black;
     border-style: solid;
     border-width: 2px;
-    text-align: center;
     font-family: "Playfair Display", sans-serif;
     font-weight: 700;
     font-style: italic;
@@ -98,7 +96,6 @@
     border-color: black;
     border-style: solid;
     border-width: 2px;
-    text-align: center;
     font-family: "Playfair Display", sans-serif;
     font-weight: 700;
     font-style: italic;
@@ -115,7 +112,6 @@
     font-weight: 700;
     font-style: italic;
     color: black;
-    /* position: absolute; */
     
 }
 
@@ -124,13 +120,16 @@
     border-color: black;
     border-style: solid;
     border-width: 2px;
-    text-align: center;
     font-family: "Playfair Display", sans-serif;
     font-weight: 700;
     font-style: italic;
     color: black;
     
 }
+
+/* Card CSS */
+
+
 
 @media only screen and  (max-width: 991px) {
 
