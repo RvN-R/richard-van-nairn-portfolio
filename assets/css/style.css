@@ -4,16 +4,16 @@
 
 body {
     font-family: "Manrope", sans-serif;
-    background-color: black;
+    background-color: #150734;
 }
 
 a {
-    color: black;
+    color: grey;
 }
 
 a:hover {
     color: white;
-    text-shadow: 2px 2px 5px black
+    text-shadow: 2px 2px 5px #150734
 }
 
 .container-fluid {
@@ -24,8 +24,22 @@ a:hover {
     transform: translateY(-50%);
 }
 
+/* Color CSS*/
+
+.top-row-color{
+    background-color: #0F2557;
+}
+
+.my-story-color{
+    background-color: #28559A;
+}
+
+.milestone-1-color{background-color: #3778C2;}
+.milestone-2-color{background-color: #4B9FE1;}
+.milestone-3-color{background-color: #63BCE5;}
+.milestone-4-color{background-color: #7ED5EA;}
+
 #top-row {
-    background-color: rgb(255, 155, 133);
     padding-left: 10px;
     border-color: black;
     border-style: solid;
@@ -38,7 +52,6 @@ a:hover {
 }
 
 #bottom-row {
-    background-color: rgb(255, 155, 133);
     padding-left: 10px;
     border-color: black;
     border-style: solid;
@@ -54,7 +67,6 @@ a:hover {
     text-align: center;
 }
 #top-my-story, #bottom-my-story{
-    background-color: purple;
     border-color: black;
     border-style: solid;
     border-width: 1px;
@@ -64,7 +76,6 @@ a:hover {
 }
 
 #top-my-story :hover, #top-my-story :focus {
-    background-color: purple;
     text-align: center;
     color: white;
     text-shadow: 2px 2px 5px black
@@ -72,7 +83,6 @@ a:hover {
 
 #linkedin-icon,
 #github-icon {
-    
     color: black;
     text-align: center;
     font-size: 3rem;
@@ -100,68 +110,47 @@ a:hover {
 }
 
 #top-milestone-1 {
-    background-color: rgb(96, 211, 148);
     text-align: center;
 }
 
 #top-milestone-1 :hover, #top-milestone-1 :focus {
-    background-color: rgb(96, 211, 148);
+    background-color: #3778C2;
     text-align: center;
     color: white;
     text-shadow: 2px 2px 5px black
 }
 
-#bottom-milestone-1 {
-    background-color: rgb(96, 211, 148);
-
-}
-
 #top-milestone-2 {
-    background-color: rgb(170, 246, 131);
     text-align: center;
 }
 
 #top-milestone-2 :hover, #top-milestone-2 :focus {
-    background-color: rgb(170, 246, 131);
+    background-color: #4B9FE1;
     text-align: center;
     color: white;
     text-shadow: 2px 2px 5px black
 }
 
-#bottom-milestone-2 {
-    background-color: rgb(170, 246, 131);
-}
-
 #top-milestone-3 {
-    background-color: rgb(255, 217, 125);
     text-align: center;
 }
 
 #top-milestone-3 :hover, #top-milestone-3 :focus {
-    background-color: rgb(255, 217, 125);
+    background-color: #63BCE5;
     text-align: center;
     color: white;
     text-shadow: 2px 2px 5px black
 }
 
-#bottom-milestone-3 {
-    background-color: rgb(255, 217, 125);
-}
-
 #top-milestone-4 {
-    background-color: rgb(238, 96, 85);
     text-align: center;
 }
 
 #top-milestone-4 :hover, #top-milestone-4 :focus {
-    background-color: rgb(238, 96, 85);
+    background-color: #7ED5EA;
     text-align: center;
     color: white;
     text-shadow: 2px 2px 5px black
-}
-
-#bottom-milestone-4 {
-    background-color: rgb(238, 96, 85);
 }
 
 /* Card CSS */
