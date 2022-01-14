@@ -29,42 +29,60 @@ a:hover {
     padding-left: 10px;
     border-color: black;
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
     text-align: left;
     font-weight: 700;
     font-style: italic;
     position: absolute;
+    color: black;
 }
 
-.bottom-row {
+#bottom-row {
     background-color: rgb(255, 155, 133);
     padding-left: 10px;
     border-color: black;
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
     border-right: none;
     text-align: left;
     font-weight: 700;
     font-style: italic;
+    color: black;
 }
 
-.linkedin-icon,
-.github-icon {
-    background-color: rgb(255, 155, 133);
+#top-my-story{
+    text-align: center;
+}
+#top-my-story, #bottom-my-story{
+    background-color: purple;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-right: none;
+    font-weight: 700;
+    color: black;
+}
+
+#top-my-story :hover, #top-my-story :focus {
+    background-color: purple;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px black
+}
+
+#linkedin-icon,
+#github-icon {
+    
     color: black;
     text-align: center;
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
+    font-size: 3rem;
+    padding-right: 2rem;
 }
 
-.linkedin-icon {
-    border-right: none;
-    border-left: none;
-}
-
-.github-icon {
-    border-left: none;
+#linkedin-icon:hover,
+#github-icon:hover{
+    color: white;
+    text-shadow: 2px 2px 5px black
 }
 
 #top-milestone-1,
