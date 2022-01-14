@@ -67,9 +67,15 @@ a:hover {
     color: black;
 }
 
-#top-my-story{
+#top-my-story,
+#top-milestone-1,
+#top-milestone-2,
+#top-milestone-3,
+#top-milestone-4
+{
     text-align: center;
 }
+
 #top-my-story, #bottom-my-story{
     border-color: black;
     border-style: solid;
@@ -113,19 +119,11 @@ a:hover {
     color: black;
 }
 
-#top-milestone-1 {
-    text-align: center;
-}
-
 #top-milestone-1 :hover, #top-milestone-1 :focus {
     background-color: #3778C2;
     text-align: center;
     color: white;
     text-shadow: 2px 2px 5px black
-}
-
-#top-milestone-2 {
-    text-align: center;
 }
 
 #top-milestone-2 :hover, #top-milestone-2 :focus {
@@ -135,19 +133,11 @@ a:hover {
     text-shadow: 2px 2px 5px black
 }
 
-#top-milestone-3 {
-    text-align: center;
-}
-
 #top-milestone-3 :hover, #top-milestone-3 :focus {
     background-color: #63BCE5;
     text-align: center;
     color: white;
     text-shadow: 2px 2px 5px black
-}
-
-#top-milestone-4 {
-    text-align: center;
 }
 
 #top-milestone-4 :hover, #top-milestone-4 :focus {

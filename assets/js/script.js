@@ -17,7 +17,7 @@ $(document).ready(function() {
 $(document).ready(function () {
 
   // Inital start hide bottom layers of all milestones and storys
-  $("#bottom-milestone-1").hide();
+  $("#bottom-milestone-1-lg").hide();
   $("#bottom-milestone-2").hide();
   $("#bottom-milestone-3").hide();
   $("#bottom-milestone-4").hide();
@@ -42,7 +42,7 @@ $(document).ready(function () {
 
   // Follow JS uses click and slide toggle to show off milestone information
   $("#top-milestone-1").click(function(){
-    $("#bottom-milestone-1").slideToggle();
+    $("#bottom-milestone-1-lg").slideToggle();
     $("#bottom-milestone-2").slideUp();
     $("#bottom-milestone-3").slideUp();
     $("#bottom-milestone-4").slideUp();
@@ -51,7 +51,7 @@ $(document).ready(function () {
   
   $("#top-milestone-2").click(function(){
     $("#bottom-milestone-2").slideToggle();
-    $("#bottom-milestone-1").slideUp();
+    $("#bottom-milestone-1-lg").slideUp();
     $("#bottom-milestone-3").slideUp();
     $("#bottom-milestone-4").slideUp();
     $("#bottom-my-story").slideUp();
@@ -60,14 +60,14 @@ $(document).ready(function () {
   $("#top-milestone-3").click(function(){
     $("#bottom-milestone-3").slideToggle();
     $("#bottom-milestone-2").slideUp();
-    $("#bottom-milestone-1").slideUp();
+    $("#bottom-milestone-1-lg").slideUp();
     $("#bottom-milestone-4").slideUp();
     $("#bottom-my-story").slideUp();
   });
 
   $("#top-milestone-4").click(function(){
     $("#bottom-milestone-4").slideToggle();
-    $("#bottom-milestone-1").slideUp();
+    $("#bottom-milestone-1-lg").slideUp();
     $("#bottom-milestone-2").slideUp();
     $("#bottom-milestone-3").slideUp();
     $("#bottom-my-story").slideUp();
