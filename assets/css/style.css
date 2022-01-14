@@ -2,20 +2,29 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
-body{
+body {
     font-family: "Manrope", sans-serif;
+    background-color: black;
 }
 
-a{
+a {
     color: black;
 }
 
-a:hover{
+a:hover {
     color: white;
     text-shadow: 2px 2px 5px black
 }
 
-#top-row{
+.container-fluid {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#top-row {
     background-color: rgb(255, 155, 133);
     padding-left: 10px;
     border-color: black;
@@ -27,69 +36,121 @@ a:hover{
     position: absolute;
 }
 
-#bottom-row{
+.bottom-row {
     background-color: rgb(255, 155, 133);
     padding-left: 10px;
     border-color: black;
     border-style: solid;
     border-width: 2px;
+    border-right: none;
     text-align: left;
     font-weight: 700;
     font-style: italic;
 }
 
-#top-milestone-1, #bottom-milestone-1,
-#top-milestone-2, #bottom-milestone-2,
-#top-milestone-3, #bottom-milestone-3,
-#top-milestone-4, #bottom-milestone-4 {
+.linkedin-icon,
+.github-icon {
+    background-color: rgb(255, 155, 133);
+    color: black;
+    text-align: center;
+    border-style: solid;
     border-color: black;
-    border-style: ridge;
+    border-width: 2px;
+}
+
+.linkedin-icon {
+    border-right: none;
+    border-left: none;
+}
+
+.github-icon {
+    border-left: none;
+}
+
+#top-milestone-1,
+#bottom-milestone-1,
+#top-milestone-2,
+#bottom-milestone-2,
+#top-milestone-3,
+#bottom-milestone-3,
+#top-milestone-4,
+#bottom-milestone-4 {
+    border-color: black;
+    border-style: solid;
     border-width: 1px;
     color: black;
 }
 
-#top-milestone-1{
+#top-milestone-1 {
     background-color: rgb(96, 211, 148);
     text-align: center;
 }
 
-#bottom-milestone-1{
+#top-milestone-1 :hover, #top-milestone-1 :focus {
     background-color: rgb(96, 211, 148);
-    
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px black
 }
 
-#top-milestone-2{
+#bottom-milestone-1 {
+    background-color: rgb(96, 211, 148);
+
+}
+
+#top-milestone-2 {
     background-color: rgb(170, 246, 131);
     text-align: center;
 }
 
-#bottom-milestone-2{
+#top-milestone-2 :hover, #top-milestone-2 :focus {
+    background-color: rgb(170, 246, 131);
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px black
+}
+
+#bottom-milestone-2 {
     background-color: rgb(170, 246, 131);
 }
 
-#top-milestone-3{
+#top-milestone-3 {
     background-color: rgb(255, 217, 125);
     text-align: center;
 }
 
-#bottom-milestone-3{
+#top-milestone-3 :hover, #top-milestone-3 :focus {
     background-color: rgb(255, 217, 125);
-   }
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px black
+}
 
-#top-milestone-4{
+#bottom-milestone-3 {
+    background-color: rgb(255, 217, 125);
+}
+
+#top-milestone-4 {
     background-color: rgb(238, 96, 85);
     text-align: center;
 }
 
-#bottom-milestone-4{
+#top-milestone-4 :hover, #top-milestone-4 :focus {
+    background-color: rgb(238, 96, 85);
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px black
+}
+
+#bottom-milestone-4 {
     background-color: rgb(238, 96, 85);
 }
 
 /* Card CSS */
 
-@media only screen and  (max-width: 991px) {
+@media only screen and (max-width: 991px) {
 
-    #top-row{
+    #top-row {
         text-align: center;
     }
 }
