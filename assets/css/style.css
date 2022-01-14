@@ -24,6 +24,12 @@ a:hover {
     transform: translateY(-50%);
 }
 
+/*Medium and Small Device CSS*/
+.top-row-md{
+    text-align: center;
+    color: black;
+}
+
 /* Color CSS*/
 
 .top-row-color{
@@ -46,7 +52,6 @@ a:hover {
     border-width: 1px;
     text-align: left;
     font-weight: 700;
-    font-style: italic;
     position: absolute;
     color: black;
 }
@@ -59,7 +64,6 @@ a:hover {
     border-right: none;
     text-align: left;
     font-weight: 700;
-    font-style: italic;
     color: black;
 }
 

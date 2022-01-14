@@ -1,5 +1,22 @@
+$(document).ready(function() {
+  // This will fire when document is ready:
+  $(window).resize(function() {
+      // This will fire each time the window is resized:
+      if($(window).width() <= 768) {
+          // if smaller or equal
+          $('#top-row').hide();
+          $('#bottom-row').hide();
+      } else {
+          // if larger
+          $('#top-row').show();
+          $('#bottom-row').show();
+      }
+  }).resize(); // This will simulate a resize to trigger the initial run.
+});
+
 $(document).ready(function () {
 
+  // Inital start hide bottom layers of all milestones and storys
   $("#bottom-milestone-1").hide();
   $("#bottom-milestone-2").hide();
   $("#bottom-milestone-3").hide();
@@ -55,15 +72,5 @@ $(document).ready(function () {
     $("#bottom-milestone-3").slideUp();
     $("#bottom-my-story").slideUp();
   });
-
-  
-  //Following JS is using fadeIn and fadeOut to create roll over effect for top-milestone-4 and bottom-milestone-4
-  // $("#top-milestone-4").mouseenter(function(){
-  //   $("#top-milestone-4").fadeOut(1500);
-  // });
-  
-  // $("#bottom-milestone-4").mouseout(function(){
-  //   $("#top-milestone-4").fadeIn(1500);
-  // });
 
 });
