@@ -56,6 +56,10 @@ a:hover {
     background-color: #7ED5EA;
 }
 
+.lighter-color-a{
+    color: slategray;
+}
+
 #top-row {
     padding-left: 10px;
     border-color: black;
@@ -134,6 +138,15 @@ a:hover {
 
 
 /* Hoover CSS */
+
+#top-row :hover,
+#top-row :focus{
+    background-color: #0F2557;
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px 5px black;
+}
+
 #top-milestone-1 :hover,
 #top-milestone-1-md :hover,
 #top-milestone-1 :focus,
@@ -185,4 +198,15 @@ a:hover {
     #top-row {
         text-align: center;
     }
+}
+
+@media only screen and  (max-width: 768px) {
+
+    .container-fluid {
+        margin: 0;
+        position: absolute;
+        top: 10%;
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }  
 }

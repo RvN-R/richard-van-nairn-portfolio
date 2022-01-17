@@ -35,7 +35,7 @@ $(document).ready(function () {
   $("#bottom-my-story").hide();
 
   //Following JS is using fadeIn and fadeOut to create roll over effect or top-row and bottom-row
-  $("#top-row").mouseenter(function(){
+  $("#top-row").click(function(){
     $("#top-row").fadeOut(1000);
   });
   
