@@ -1,5 +1,5 @@
 import os
-from flask import Flask, flash, render_template
+from flask import Flask, flash, render_template, url_for
 if os.path.exists("env.py"):
     import env
 
@@ -15,8 +15,14 @@ def home():
     return render_template("index.html")
 
 
+@app.route("/cv")
+def cv():
+    # function renders cv.html
+    return render_template("cv.html")
+
+
 if __name__ == "__main__":
     app.run(
         host=os.environ.get("IP", "0.0.0.0"),
         port=int(os.environ.get("PORT", "5000")),
-        debug=True)
+        debug=False)

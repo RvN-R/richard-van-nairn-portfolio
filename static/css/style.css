@@ -24,6 +24,23 @@ a:hover {
     transform: translateY(-50%);
 }
 
+/*CV CSS*/
+.container-fluid-cv{
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+}
+
+/*Images*/
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 /*Medium and Small Device CSS*/
 .top-row-md {
     text-align: center;
@@ -208,5 +225,13 @@ a:hover {
         top: 10%;
         -ms-transform: translateY(0);
         transform: translateY(0);
-    }  
+    }
+
+    .container-fluid-cv{
+        margin: 0;
+        position: absolute;
+        top: 5%;
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
 }
