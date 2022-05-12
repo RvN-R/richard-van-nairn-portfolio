@@ -73,9 +73,14 @@ img {
     background-color: #7ED5EA;
 }
 
+.hackathon-color{
+    background-color: #95DDEE;
+}
+
 .lighter-color-a{
     color: slategray;
 }
+
 
 #top-row {
     padding-left: 10px;
@@ -105,7 +110,8 @@ img {
 #top-milestone-2,
 #top-milestone-2-md,
 #top-milestone-3,
-#top-milestone-4 {
+#top-milestone-4,
+#top-hackathon {
     text-align: center;
 }
 
@@ -144,7 +150,8 @@ img {
 #top-milestone-3,
 #bottom-milestone-3,
 #top-milestone-4,
-#bottom-milestone-4 {
+#bottom-milestone-4,
+#top-hackathon {
     border-color: black;
     border-style: solid;
     border-width: 1px;
@@ -196,6 +203,14 @@ img {
 #top-milestone-4 :hover,
 #top-milestone-4 :focus {
     background-color: #7ED5EA;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+#top-hackathon :hover,
+#top-hackathon :focus {
+    background-color: #95DDEE;
     text-align: center;
     color: white;
     text-shadow: 2px 2px 5px black;
