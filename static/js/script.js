@@ -33,6 +33,7 @@ $(document).ready(function () {
   $("#bottom-milestone-3").hide();
   $("#bottom-milestone-4").hide();
   $("#bottom-my-story").hide();
+  $("#bottom-hackathon").hide();
 
   //Following JS is using fadeIn and fadeOut to create roll over effect or top-row and bottom-row
   $("#top-row").click(function(){
@@ -51,6 +52,7 @@ $(document).ready(function () {
     $("#bottom-milestone-2-md").slideUp();
     $("#bottom-milestone-3").slideUp();
     $("#bottom-milestone-4").slideUp();
+    $("#bottom-hackathon").slideUp();
   });
 
 
@@ -63,6 +65,7 @@ $(document).ready(function () {
     $("#bottom-milestone-3").slideUp();
     $("#bottom-milestone-4").slideUp();
     $("#bottom-my-story").slideUp();
+    $("#bottom-hackathon").slideUp();
   });
 
   $("#top-milestone-1-md").click(function(){
@@ -73,6 +76,7 @@ $(document).ready(function () {
     $("#bottom-milestone-3").slideUp();
     $("#bottom-milestone-4").slideUp();
     $("#bottom-my-story").slideUp();
+    $("#bottom-hackathon").slideUp();
   });
 
   $("#top-milestone-2").click(function(){
@@ -83,6 +87,7 @@ $(document).ready(function () {
     $("#bottom-milestone-3").slideUp();
     $("#bottom-milestone-4").slideUp();
     $("#bottom-my-story").slideUp();
+    $("#bottom-hackathon").slideUp();
   });
 
   $("#top-milestone-2-md").click(function(){
@@ -92,6 +97,7 @@ $(document).ready(function () {
     $("#bottom-milestone-3").slideUp();
     $("#bottom-milestone-4").slideUp();
     $("#bottom-my-story").slideUp();
+    $("#bottom-hackathon").slideUp();
   });
 
   $("#top-milestone-3").click(function(){
@@ -102,6 +108,7 @@ $(document).ready(function () {
     $("#bottom-milestone-1-md").slideUp();
     $("#bottom-milestone-4").slideUp();
     $("#bottom-my-story").slideUp();
+    $("#bottom-hackathon").slideUp();
   });
 
   $("#top-milestone-4").click(function(){
@@ -112,6 +119,18 @@ $(document).ready(function () {
     $("#bottom-milestone-1-md").slideUp();
     $("#bottom-milestone-3").slideUp();
     $("#bottom-my-story").slideUp();
+    $("#bottom-hackathon").slideUp();
+  });
+
+  $("#top-hackathon").click(function(){
+    $("#bottom-hackathon").slideToggle();
+    $("#bottom-milestone-1-lg").slideUp();
+    $("#bottom-milestone-2-lg").slideUp();
+    $("#bottom-milestone-2-md").slideUp();
+    $("#bottom-milestone-1-md").slideUp();
+    $("#bottom-milestone-3").slideUp();
+    $("#bottom-my-story").slideUp();
+    $("#bottom-milestone-4").slideUp();
   });
 
 });
