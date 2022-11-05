@@ -1,5 +1,5 @@
 import os
-from flask import Flask, flash, render_template, url_for
+from flask import Flask, render_template
 if os.path.exists("env.py"):
     import env
 
