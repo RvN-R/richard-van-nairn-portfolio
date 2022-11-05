@@ -52,7 +52,7 @@
                     <p class="card-text">
                         <ul>
                             <li>Cycling - Enjoy cycling for its impact on both physical and mental well being.</li>
-                            <li>Running - Currently training for the London Marathon </li>
+                            <li>Running - Currently training for a Half Marathon </li>
                             <li>Hackathon - On going active participation in community Hackathons.</li>
                             <li>Making Music - My extensive background in record production translates into a continuous love of music.</li>
                         </ul>
@@ -69,46 +69,68 @@
             <!--Milestone 1 Section Large or Above-->
             <div id="top-milestone-1" class="milestone-1-color col-lg-4 col-md-12 col-sm-12 justify-content-center">
                 <p>
-                    <h1>HTML/CSS</h1>
+                    <h1>REACT</h1>
                 </p>
             </div>
             <!--Milestone 1 Section Medium or Smaller View-->
             <div id="top-milestone-1-md" class="milestone-1-color col-md-12 col-sm-12 justify-content-center">
                 <p>
-                    <h1>HTML/CSS</h1>
+                    <h1>REACT</h1>
                 </p>
             </div>
             <div id="bottom-milestone-1-md" class="milestone-1-color col-md-12 col-sm-12">
                 <div class="card-body">
-                    <h1 class="card-title">Re Tye Dye Website</h1>
+                    <h1 class="card-title">Weather App</h1>
                     <p class="card-text">
-                        I completed this project as part of my Milestone 1 submission for my Code Institue Diploma. I was tasked with creating a simple website using HTML and CSS, that is designed to be responsive and accessible on a range of devices. The site didn't need to have any functioning Javascript, Python or connect with a database of any kind. In order to pass this project I needed to display my undestanding of structing a website using HTML and CSS. I was able to use a CSS framework of my choice, so due to its industry popularity I chose to use Bootstrap. I created this site for a sudo start up company called Re-Tye-Dye, a echo friendly second hand garmet auctioning website. The site needed to connect with Re-Tye-Dye's intended target market, and so the images, colour pallete and overall design aesthetic needed to contiune throughout the site, and connect with that target market. I feel this project displays a basic but strong understanding of using both HTML and CSS to create a simple yet effect site.
+                        I wanted to improve my understanding of React and in doing so, increase my experience in calling to API’s, the result was the “Weather App”. This project allows users to type in the name of their city and recieve a seven day weather report displaying all the usual information you would expect to see including highest/lowest temperture, pressure, humidity and weather icons assocaited with the report.
                     </p>
-                    <p><a href="https://rvn-r.github.io/milestone-re-tie-dye/index.html" class="" target="_blank"><b>Click the link</b></a> to be taken to the Re-Tye-Dye Website</p>
+                    <p class="card-text">
+                        I used three API’s to complete this project and they are as follows: 
+                    </p>
+                    <p>
+                        <ul>
+                            <li>
+                                Googles Geocoding API - Using the city name as a key the API returns the Longitude and Latitutde of that city. 
+                            </li>
+                            <li>
+                                OpenWeatherMap API - Having sourced the Longitude and Latitutde, we use that information to search the Open Weather Map API for weather information for the next seven days.  
+                            </li>
+                            <li>
+                                RoadGoat API - To give the project a unique touch I wanted a skyline image of the searched city to appear as a back ground image, hopefully tying the project together. Having sourced the cities Longitude and Latitutde using Google’s Geocoding API, I was able to use that information to search RoadGoat and return a image of said city
+                            </li>
+                        </ul>
+                        </p>
+                    <p><a href="https://rvn-r.github.io/weather-app/" class="" target="_blank"><b>Click the link</b></a> to be taken to the Weather App</p>
+                    <p><a href="https://github.com/RvN-R/weather-app" class="" target="_blank"><b>Click the link</b></a> to be taken to the Weather App Github</p>
                 </div>
             </div>
             <!--Milestone 2 Section Large or Above-->
             <div id="top-milestone-2" class="milestone-2-color col-lg-4 col-md-12 col-sm-12 justify-content-center">
                 <p>
-                    <h1>HTML/CSS/JS</h1>
+                    <h1>MERN</h1>
                 </p>
             </div>
             <!--Milestone 2 Section Medium or Smaller View-->
             <div id="top-milestone-2-md" class="milestone-2-color col-md-12 col-sm-12 justify-content-center">
                 <p>
-                    <h1>HTML/CSS/JS</h1>
+                    <h1>MERN</h1>
                 </p>
             </div>
             <div id="bottom-milestone-2-md" class="milestone-2-color col-md-12 col-sm-12">
                 <div class="card-body">
-                    <h1 class="card-title">Ram Cycling Club Website</h1>
+                    <h1 class="card-title">Sound As A Pound</h1>
                     <p class="card-text">
-                        I completed this project as part of my Milestone 2 submission for my Code Institue Diploma. I was tasked with creating a website, continuing the HTML and CSS skills I had displayed in the previous project. The site needed to be response, accessible and have some interactive elements. To create the interactive elements I needed to use Javascript and incorporate some APIs. 
+                        In October of 2022, myself like the rest of the UK and Europe, were concerned with the value of the British Pound against the Dollar. I wanted to create a tool that made it easy to source that information quickly, and what I started out to be a simple Twitter Bot became a full blown MERN project.
                     </p>
                     <p>
-                        This site was created for a small cycling club based in West London. Due to the size of the club the website needed to be simple, one page with various sections displaying key information. Displaying the clubs cycling route is a key feature of the site. In order to display that informatiom in an interactive manor I turned to Googles Directions and Maps Javascript API. The "Join the Crew" section of the site allows the visitor to reach out to the club using an interactive form. I used EmailJS API to achieve this and this feature allows the interested visitor to express interest in joining the club, and would allow the club to effectively manage and increase it's membership.
+                        Sound As a Pound calls to currencylayer API to get the value of the GBP against the USD. Twice a day at 8am and 5pm GMT that value is then pushed to a Mongo DB database, and also using the Twitter API, that value is tweeted out on @sound_as_apound. The information that was pushed to the Mongo DB database then gets pulled and rendered into a Line Graph using React. 
                     </p>
-                    <p><a href="https://rvn-r.github.io/milestone-2-cyclingclub/#club-rides-section" class="" target="_blank"><b>Click the link</b></a> to be taken to the Rams Cycling Club Website</p>
+                    <p>
+                        The user then has two options, they can follow @sound_as_apound and get morning and evening updates on the GBP value, or they can visit the website and see a graph illustrating the rise and fall of the GBP since I started plotting the data.  
+                    </p>
+                    <p><a href="https://soundasapound.onrender.com/" class="" target="_blank"><b>Click the link</b></a> to be taken to the Sound As A Pound website</p>
+                    <p><a href="https://twitter.com/sound_as_apound" class="" target="_blank"><b>Click the link</b></a> to be taken to Sound As A Pound Twitter</p>
+                    <p><a href="https://github.com/RvN-R/sound-as-a-pound" class="" target="_blank"><b>Click the link</b></a> to be taken to  the GitHub Repository for this project </p>
                 </div>
             </div>
             <!--Milestone 3 Top All Views-->
@@ -120,24 +142,46 @@
             <!-- Milestone 1 Section Large View -->
             <div id="bottom-milestone-1-lg" class="milestone-1-color col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
                 <div class="card-body">
-                    <h1 class="card-title">Re Tye Dye Website</h1>
+                    <h1 class="card-title">Weather App</h1>
                     <p class="card-text">
-                        I completed this project as part of my Milestone 1 submission for my Code Institue Diploma. I was tasked with creating a simple website using HTML and CSS, that is designed to be responsive and accessible on a range of devices. The site didn't need to have any functioning Javascript, Python or connect with a database of any kind. In order to pass this project I needed to display my undestanding of structing a website using HTML and CSS. I was able to use a CSS framework of my choice, so due to its industry popularity I chose to use Bootstrap. I created this site for a sudo start up company called Re-Tye-Dye, a echo friendly second hand garmet auctioning website. The site needed to connect with Re-Tye-Dye's intended target market, and so the images, colour pallete and overall design aesthetic needed to contiune throughout the site, and connect with that target market. I feel this project displays a basic but strong understanding of using both HTML and CSS to create a simple yet effect site.
+                        I wanted to improve my understanding of React and in doing so, increase my experience in calling to API’s, the result was the “Weather App”. This project allows users to type in the name of their city and recieve a seven day weather report displaying all the usual information you would expect to see including highest/lowest temperture, pressure, humidity and weather icons assocaited with the report.
                     </p>
-                    <p><a href="https://rvn-r.github.io/milestone-re-tie-dye/index.html" class="" target="_blank"><b>Click the link</b></a> to be taken to the Re-Tye-Dye Website</p>
+                    <p class="card-text">
+                        I used three API’s to complete this project and they are as follows: 
+                    </p>
+                    <p>
+                    <ul>
+                        <li>
+                            Googles Geocoding API - Using the city name as a key the API returns the Longitude and Latitutde of that city. 
+                        </li>
+                        <li>
+                            OpenWeatherMap API - Having sourced the Longitude and Latitutde, we use that information to search the Open Weather Map API for weather information for the next seven days.  
+                        </li>
+                        <li>
+                            RoadGoat API - To give the project a unique touch I wanted a skyline image of the searched city to appear as a back ground image, hopefully tying the project together. Having sourced the cities Longitude and Latitutde using Google’s Geocoding API, I was able to use that information to search RoadGoat and return a image of said city
+                        </li>
+                    </ul>
+                    </p>
+                    <p><a href="https://rvn-r.github.io/weather-app/" class="" target="_blank"><b>Click the link</b></a> to be taken to the Weather App</p>
+                    <p><a href="https://github.com/RvN-R/weather-app" class="" target="_blank"><b>Click the link</b></a> to be taken to the Weather App Github</p>
                 </div>
             </div>
             <!-- Milestone 2 Section Large View -->
             <div id="bottom-milestone-2-lg" class="milestone-2-color col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
                 <div class="card-body">
-                    <h1 class="card-title">Ram Cycling Club Website</h1>
+                    <h1 class="card-title">Sound As A Pound</h1>
                     <p class="card-text">
-                        I completed this project as part of my Milestone 2 submission for my Code Institue Diploma. I was tasked with creating a website, continuing the HTML and CSS skills I had displayed in the previous project. The site needed to be response, accessible and have some interactive elements. To create the interactive elements I needed to use Javascript and incorporate some APIs. 
+                        In October of 2022, myself like the rest of the UK and Europe, were concerned with the value of the British Pound against the Dollar. I wanted to create a tool that made it easy to source that information quickly, and what I started out to be a simple Twitter Bot became a full blown MERN project.
                     </p>
                     <p>
-                        This site was created for a small cycling club based in West London. Due to the size of the club the website needed to be simple, one page with various sections displaying key information. Displaying the clubs cycling route is a key feature of the site. In order to display that informatiom in an interactive manor I turned to Googles Directions and Maps Javascript API. The "Join the Crew" section of the site allows the visitor to reach out to the club using an interactive form. I used EmailJS API to achieve this and this feature allows the interested visitor to express interest in joining the club, and would allow the club to effectively manage and increase it's membership.
+                        Sound As a Pound calls to currencylayer API to get the value of the GBP against the USD. Twice a day at 8am and 5pm GMT that value is then pushed to a Mongo DB database, and also using the Twitter API, that value is tweeted out on @sound_as_apound. The information that was pushed to the Mongo DB database then gets pulled and rendered into a Line Graph using React. 
                     </p>
-                    <p><a href="https://rvn-r.github.io/milestone-2-cyclingclub/#club-rides-section" class="" target="_blank"><b>Click the link</b></a> to be taken to the Rams Cycling Club Website</p>
+                    <p>
+                        The user then has two options, they can follow @sound_as_apound and get morning and evening updates on the GBP value, or they can visit the website and see a graph illustrating the rise and fall of the GBP since I started plotting the data.  
+                    </p>
+                    <p><a href="https://soundasapound.onrender.com/" class="" target="_blank"><b>Click the link</b></a> to be taken to the Sound As A Pound website</p>
+                    <p><a href="https://twitter.com/sound_as_apound" class="" target="_blank"><b>Click the link</b></a> to be taken to Sound As A Pound Twitter</p>
+                    <p><a href="https://github.com/RvN-R/sound-as-a-pound" class="" target="_blank"><b>Click the link</b></a> to be taken to  the GitHub Repository for this project </p>
                 </div>
             </div>
             <!-- Milestone 3 Bottom All Views -->
